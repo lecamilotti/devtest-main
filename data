@@ -1,0 +1,5 @@
+if (this.state.counter === 5) {
+      throw new Error('Crashed.');
+    }
+    return <h1 onClick={this.handleClick}>{this.state.counter}</h1>;
+  }
